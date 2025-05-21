@@ -37,4 +37,4 @@ Pode ser usado como:
 
 1. Clone ou baixe o repositório:
    ```bash
-   git clone https://github.com/seuusuario/seurepositorio.git
+   git clone https://github.com/aliceabreu/template-html-css.git
