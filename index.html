@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Template HTML semântico base para projetos e estudos." />
+  <title>Template HTML Semântico</title>
+
+  <!-- Importa uma fonte do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+
+  <!-- Importa o arquivo de estilos externos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- <header>: cabeçalho principal da página -->
+  <header>
+    <h1>Meu Template HTML Semântico</h1>
+    <p>Um ponto de partida para seus projetos web ✨</p>
+  </header>
+
+  <!-- <nav>: área de navegação com links internos -->
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- <main>: conteúdo principal da página -->
+  <main>
+    <!-- <section>: agrupa o conteúdo da seção "Sobre" -->
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Este é um template com HTML semântico criado para facilitar o início de novos projetos ou revisar conceitos de marcação bem estruturada.</p>
+    </section>
+
+    <!-- Outra <section>: bloco com serviços oferecidos -->
+    <section id="servicos">
+      <h2>Serviços</h2>
+
+      <!-- <article>: conteúdo autônomo, que pode ser reutilizado -->
+      <article>
+        <h3>Criação de Sites</h3>
+        <p>Desenvolvimento de páginas web com HTML, CSS e frameworks modernos.</p>
+      </article>
+
+      <article>
+        <h3>Consultoria</h3>
+        <p>Ajudamos a planejar, revisar e implementar soluções front-end eficientes.</p>
+      </article>
+    </section>
+
+    <!-- Seção de contato com formulário -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <!-- Campos do formulário com rótulos (labels) -->
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="mensagem">Mensagem:</label><br />
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea><br /><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- <footer>: rodapé com informações finais -->
+  <footer>
+    <p>&copy; 2025 Alice Abreu. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
+<!-- Fim do arquivo index.html -->

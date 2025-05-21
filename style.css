@@ -1,0 +1,70 @@
+/* Importa a fonte Montserrat */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Aplica espaçamento interno às principais seções */
+header,
+nav,
+main,
+footer {
+  padding: 1.5rem;
+}
+
+/* Estiliza o cabeçalho */
+header {
+  background-color: #f5f5f5;
+}
+
+/* Navegação horizontal */
+nav ul {
+  list-style: none;        /* Remove marcadores da lista */
+  display: flex;           /* Coloca os itens lado a lado */
+  gap: 1rem;               /* Espaçamento entre os itens */
+  padding: 0;
+}
+
+/* Espaçamento entre seções */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Rodapé com fundo claro e texto centralizado */
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Estilos básicos para formulário */
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Botão do formulário */
+form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Estilo para imagens */
+img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto;    /* Mantém a proporção da imagem */
+}
