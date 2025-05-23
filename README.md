@@ -32,6 +32,12 @@ Pode ser usado como:
 - Fonte personalizada (Google Fonts)
 
 ---
+## 📁 Referências
+
+Consulte os artigos utilizados para formulação desse template aqui: [referências](referencias.md)
+
+
+---
 
 ## ✅ Como usar
 
